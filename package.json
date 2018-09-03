@@ -10,13 +10,13 @@
   "private": true,
   "version": "1.7.1",
   "dependencies": {
-    "casper": "github:tryghost/Casper#2.1.0",
-    "ghost": "^1.8.0",
-    "ghost-storage-adapter-s3": "^2.3.0",
+    "casper": "github:tryghost/Casper#latest",
+    "ghost": "*",
+    "ghost-storage-adapter-s3": "*",
     "mysql": "^2.14.1"
   },
   "engines": {
-    "node": "6.11.x"
+    "node": "8.9.x"
   },
   "scripts": {
     "start": "node server.js"
